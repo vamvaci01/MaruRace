@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Maru_OverPopulation.stages.0.label>고요함</Maru_OverPopulation.stages.0.label>
+  <Maru_OverPopulation.stages.0.description>바람소리, 발소리, 땅울림, 모든게 느껴져. 기분 좋은 정적이야.</Maru_OverPopulation.stages.0.description>
+  <Maru_OverPopulation.stages.1.label>쾌적함</Maru_OverPopulation.stages.1.label>
+  <Maru_OverPopulation.stages.2.label>혼잡함</Maru_OverPopulation.stages.2.label>
+  <Maru_OverPopulation.stages.2.description>수많은 냄새가 흘러들어오고 있어. 이곳에 사람이 필요한 건 알지만, 어지러워.</Maru_OverPopulation.stages.2.description>
+  <Maru_OverPopulation.stages.3.label>숨막힘</Maru_OverPopulation.stages.3.label>
+  <Maru_OverPopulation.stages.3.description>좋은 생각은 아닌 것 같아.</Maru_OverPopulation.stages.3.description>
+  <Maru_OverPopulation.stages.4.label>경계중</Maru_OverPopulation.stages.4.label>
+  <Maru_OverPopulation.stages.4.description>사람이 사람을 믿는 데에는, 거리가 필요할 거야.</Maru_OverPopulation.stages.4.description>
+</LanguageData>
