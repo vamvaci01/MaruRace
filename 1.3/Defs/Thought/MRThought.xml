@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+    <defName>MR_SoakingWet</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+    </nullifyingPrecepts>
+    <stages>
+      <li>
+        <label>soaking wet</label>
+        <description>꼬리가 무거워.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>MR_DeadMansApparel</defName>
+    <workerClass>ThoughtWorker_DeadMansApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>전리품 {0}</label>
+        <description>원 주인의 피가 배어있는, 기억이 쌓인 전리품이야.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>악취나는 전리품 (+1)</label>
+        <description>자랑스러워! 자랑스럽지만... 왠지, 이렇게까지 하는 건 좀... 그렇지 않나?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>악취나는 전리품 (+2)</label>
+        <description>냄새 나. 너무 많은 냄새가 섞여있어.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>악취나는 전리품 (etc)</label>
+        <description>상한 고깃더미를 걸치고 있는 기분이야. 아니, 어쩌면 그 편이 나을수도.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+    <nullifyingTraits>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+  </ThoughtDef>
+  
+</Defs>
