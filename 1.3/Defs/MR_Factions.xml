@@ -26,7 +26,7 @@
 		<basicMemberKind>Maru_Colonist</basicMemberKind>
 		<pawnSingular>Maru</pawnSingular>
 		<pawnsPlural>Snowleopards</pawnsPlural>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Medieval</techLevel>
 		<backstoryCategories>
 			<li>Offworld</li>
 		</backstoryCategories>
@@ -95,7 +95,7 @@
 			<li>Base_Outlander_Standard</li>
 		</baseTraderKinds>
 		
-		<techLevel>Spacer</techLevel>
+		<techLevel>Medieval</techLevel>
 		<backstoryCategories>
 			<li>Offworld</li>
 		</backstoryCategories>
