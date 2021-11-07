@@ -146,6 +146,7 @@
 			<options>
 				<MRP_Engineer>15</MRP_Engineer>
                 <MRP_Work>8</MRP_Work>
+                <MRP_Cooker>5</MRP_Cooker>
                 <MRP_Doctor>5</MRP_Doctor>
                 <MRP_Hunter>2</MRP_Hunter>
                 <MRP_Caravan>1</MRP_Caravan>
