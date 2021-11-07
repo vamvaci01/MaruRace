@@ -22,7 +22,7 @@
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-	    <li>MRP_MRP_Outsider</li>
+	    <li>MMRP_Outsider</li>
             <li>MRP_Caravan</li>
             <li>MRP_Engineer</li>
             <li>MRP_Work</li>
@@ -33,7 +33,7 @@
 			<alienrefugeekinds>
 				<li>
 					<kindDefs>
-						<li>MRP_MRP_Outsider</li>
+						<li>MRP_Outsider</li>
 						<li>MRP_Work</li>
             <li>MRP_Doctor</li>
             <li>MRP_Engineer</li>
@@ -46,7 +46,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>MRP_MRP_Outsider</li>
+								<li>MRP_Outsider</li>
 								<li>MRP_Hunter</li>
                 <li>MRP_Caravan</li>
               </kindDefs>
