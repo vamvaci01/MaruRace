@@ -22,7 +22,7 @@
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-	    <li>MMRP_Outsider</li>
+	    <li>MRP_Outsider</li>
             <li>MRP_Caravan</li>
             <li>MRP_Engineer</li>
             <li>MRP_Work</li>
