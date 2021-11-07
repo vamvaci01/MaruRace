@@ -71,20 +71,112 @@
 
   <!-- 해석가 스타트 -->
 
+	
+	
+  <!-- 방랑자(외부인) -->
+
+  
+  <PawnKindDef ParentName="marunpcBasePawnKind">
+    <defName>MRP_Outsider</defName>
+    <label>Maru Outsider</label>
+    <combatPower>40</combatPower>
+    <isFighter>true</isFighter>
+    <forceNormalGearQuality>false</forceNormalGearQuality>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <trader>true</trader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+	<li>MR_MW</li>
+        <li>MR_GW</li>
+        <li>MR_MWChild</li>
+	<li>MR_GWChild</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>MR_Starting</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>500</min>
+      <max>1800</max>
+    </apparelMoney>
+    <apparelRequired>
+    </apparelRequired>
+    <weaponTags>
+	   <li>MRW_C_T1</li>
+	   <li>MRW_HA_T1</li>
+	   <li>MRW_WH_T1</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>1000</max>
+    </weaponMoney>
+    <techHediffsChance>0.08</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>1400</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+  </PawnKindDef>
   
     <!-- 요리사 -->
 
-
-  <!-- 방랑자 -->
-
-  
+  <PawnKindDef ParentName="marunpcBasePawnKind">
+    <defName>MRP_Cooker</defName>
+    <label>Maru Cooker</label>
+    <combatPower>40</combatPower>
+    <isFighter>true</isFighter>
+    <forceNormalGearQuality>false</forceNormalGearQuality>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <trader>true</trader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>MR_Cooker</li>
+          <li>MR_MHchild</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>MR_Cook</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>500</min>
+      <max>1800</max>
+    </apparelMoney>
+    <apparelRequired>
+    </apparelRequired>
+    <weaponTags>
+	   <li>MRW_C_T1</li>
+	   <li>MRW_WH_T1</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>1000</max>
+    </weaponMoney>
+    <techHediffsChance>0.08</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>1400</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+  </PawnKindDef>
   
   <!-- 대상 -->
 
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Caravan</defName>
     <label>Maru Caravan</label>
-    <combatPower>30</combatPower>
+    <combatPower>40</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -132,7 +224,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Engineer</defName>
     <label>Maru Engineer</label>
-    <combatPower>30</combatPower>
+    <combatPower>35</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -180,7 +272,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Work</defName>
     <label>Maru Technician</label>
-    <combatPower>30</combatPower>
+    <combatPower>35</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -229,7 +321,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Doctor</defName>
     <label>Maru Doctor</label>
-    <combatPower>30</combatPower>
+    <combatPower>35</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -281,7 +373,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_CHunter</defName>
     <label>Maru Contract Hunter</label>
-    <combatPower>35</combatPower>
+    <combatPower>45</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -328,7 +420,7 @@
 	<PawnKindDef ParentName="marunpcBasePawnKind">
 		<defName>MRP_Hunter</defName>
 		<label>Maru Hunter</label>
-		<combatPower>35</combatPower>
+		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -375,7 +467,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Deciphers</defName>
     <label>Maru Decipher</label>
-    <combatPower>35</combatPower>
+    <combatPower>45</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -472,7 +564,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_M</defName>
     <label>Maru fangs</label>
-    <combatPower>40</combatPower>
+    <combatPower>50</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -519,7 +611,7 @@
     <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_R</defName>
     <label>Maru fangs</label>
-    <combatPower>40</combatPower>
+    <combatPower>50</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -565,7 +657,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_A</defName>
     <label>Maru Claws</label>
-    <combatPower>40</combatPower>
+    <combatPower>55</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -613,7 +705,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_C</defName>
     <label>Maru Claws</label>
-    <combatPower>40</combatPower>
+    <combatPower>55</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
