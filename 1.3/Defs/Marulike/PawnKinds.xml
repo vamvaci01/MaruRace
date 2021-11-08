@@ -589,8 +589,8 @@
       <li>Apparel_ShieldBelt</li>
     </apparelRequired>
     <weaponTags>
-	   <li>MRW_C_T3S</li>
-	   <li>MRW_HA_T3H</li>
+	   <li>MRW_C_T2S</li>
+	   <li>MRW_HA_T2H</li>
     </weaponTags>
     <weaponMoney>
       <min>1605</min>
