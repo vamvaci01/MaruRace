@@ -165,6 +165,7 @@
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>7</MRP_fangs_M>
+				<MRP_fangs_RWH>10</MRP_fangs_RWH>
 				<MRP_fangs_R>3</MRP_fangs_R>
 			</options> 
 		</li>
@@ -179,12 +180,13 @@
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>7</MRP_fangs_M>
+				<MRP_fangs_RWH>10</MRP_fangs_RWH>
 				<MRP_fangs_R>4</MRP_fangs_R>
 				<MRP_Claws_A>1</MRP_Claws_A>
 			</options> 
 	      	</li>
 			 
-		    <!-- 공격군 산지기 결정-->
+		    <!-- 공격군 산지기 도끼연사-->
 			<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>15</commonality>
@@ -194,13 +196,14 @@
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>10</MRP_fangs_M>
+				<MRP_fangs_RWH>10</MRP_fangs_RWH>
 				<MRP_fangs_R>3</MRP_fangs_R>
 				<MRP_Claws_C>3</MRP_Claws_C>
 				<MRP_MountainRanger>1</MRP_MountainRanger>
 			</options> 
 		    </li>
 			
-			<!-- 공격군 산지기 둔화-->
+			<!-- 공격군 산지기 끌어오기-->
 			<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>15</commonality>
@@ -210,6 +213,7 @@
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>10</MRP_fangs_M>
+				<MRP_fangs_RWH>10</MRP_fangs_RWH>
 				<MRP_fangs_R>7</MRP_fangs_R>
 				<MRP_Claws_A>3</MRP_Claws_A>
 				<MRP_MountainRanger>1</MRP_MountainRanger>
@@ -231,6 +235,7 @@
 			<kindDef>Settlement</kindDef>
 			<options>
 				<MRP_fangs_M>10</MRP_fangs_M>
+				<MRP_fangs_RWH>10</MRP_fangs_RWH>
 				<MRP_fangs_R>10</MRP_fangs_R>
 				<MRP_Claws_C>3</MRP_Claws_C>
 				<MRP_Claws_A>3</MRP_Claws_A>
