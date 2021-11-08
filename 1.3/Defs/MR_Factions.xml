@@ -153,11 +153,27 @@
 			</options> 
 		</li>
 		
+				<!-- 공격군 사냥꾼&해석가 -->
+		
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>40</commonality>
+			<maxTotalPoints>4000</maxTotalPoints>
+			<disallowedStrategies>
+				<li>ImmediateAttackSappers</li>
+				<li>Siege</li>
+			</disallowedStrategies>
+			<options>
+                <MRP_Hunter>10</MRP_Hunter>
+				<MRP_Deciphers>1</MRP_Deciphers>
+			</options> 
+		</li>
+		
 			<!-- 공격군 정규 -->
 		
                         <li> 
 			<kindDef>Combat</kindDef>
-			<commonality>15</commonality>
+			<commonality>10</commonality>
 			<maxTotalPoints>5000</maxTotalPoints>
 			<disallowedStrategies>
 				<li>ImmediateAttackSappers</li>
@@ -172,7 +188,7 @@
 	        <!-- 공격군 정규 조직화 -->
 			<li> 
 			<kindDef>Combat</kindDef>
-			<commonality>15</commonality>
+			<commonality>3</commonality>
 			<maxTotalPoints>8500</maxTotalPoints>
 			<disallowedStrategies>
 				<li>ImmediateAttackSappers</li>
@@ -189,7 +205,7 @@
 		    <!-- 공격군 산지기 도끼연사-->
 			<li> 
 			<kindDef>Combat</kindDef>
-			<commonality>15</commonality>
+			<commonality>1</commonality>
 			<disallowedStrategies>
 				<li>ImmediateAttackSappers</li>
 				<li>Siege</li>
@@ -206,7 +222,7 @@
 			<!-- 공격군 산지기 끌어오기-->
 			<li> 
 			<kindDef>Combat</kindDef>
-			<commonality>15</commonality>
+			<commonality>1</commonality>
 			<disallowedStrategies>
 				<li>ImmediateAttackSappers</li>
 				<li>Siege</li>
