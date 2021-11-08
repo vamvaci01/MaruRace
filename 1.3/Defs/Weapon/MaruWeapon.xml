@@ -159,7 +159,7 @@
 		<extraMeleeDamages>
           <li>
             <def>MR_Crystallization</def>
-            <amount>2</amount>
+            <amount>4</amount>
           </li>
         </extraMeleeDamages>
       </li>
@@ -222,7 +222,7 @@
       <extraMeleeDamages>
           <li>
             <def>MR_Crystallization</def>
-            <amount>4</amount>
+            <amount>6</amount>
           </li>
         </extraMeleeDamages>
       </li>
@@ -335,13 +335,13 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>5</cooldownTime>
+        <power>20</power>
+        <cooldownTime>3</cooldownTime>
       <armorPenetration>0.3</armorPenetration>
 	   <extraMeleeDamages>
           <li>
             <def>MR_Shredded</def>
-            <amount>6</amount>
+            <amount>10</amount>
           </li>
         </extraMeleeDamages>
       </li>
@@ -391,7 +391,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>12</power>
+        <power>16</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -399,7 +399,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
+        <power>16</power>
         <cooldownTime>3</cooldownTime>
       <armorPenetration>0.5</armorPenetration>
          <extraMeleeDamages>
