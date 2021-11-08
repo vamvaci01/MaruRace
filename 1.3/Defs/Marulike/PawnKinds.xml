@@ -782,7 +782,7 @@
 	   <li>MRW_HA_T3T</li>
     </weaponTags>
     <weaponMoney>
-      <min>1585</min>
+      <min>1605</min>
       <max>2500</max>
     </weaponMoney>
     <techHediffsChance>0.02</techHediffsChance>
