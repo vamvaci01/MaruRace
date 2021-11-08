@@ -586,6 +586,7 @@
       <max>3500</max>
     </apparelMoney>
     <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
     </apparelRequired>
     <weaponTags>
 	   <li>MRW_C_T3S</li>
@@ -605,8 +606,54 @@
     </techHediffsTags>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
   </PawnKindDef>
+	
+   <!--송곳니 원거리 작살-->
+	
+    <PawnKindDef ParentName="marunpcBasePawnKind">
+    <defName>MRP_fangs_RWH</defName>
+    <label>Maru fangs</label>
+    <combatPower>50</combatPower>
+    <isFighter>true</isFighter>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>MR_MHchild</li>
+          <li>MR_MH</li>
+          <li>MR_Hunter</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>MR_Hunter</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>800</min>
+      <max>3500</max>
+    </apparelMoney>
+    <apparelRequired>
+    </apparelRequired>
+    <weaponTags>
+	   <li>MRW_WH_T2R</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>1355</min>
+      <max>2500</max>
+    </weaponMoney>
+    <techHediffsChance>0.02</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+  </PawnKindDef>
   
-   <!--송곳니 원거리-->
+   <!--송곳니 원거리 대궁-->
    
     <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_R</defName>
@@ -652,7 +699,7 @@
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
   </PawnKindDef>
   
-    <!--발톱 둔화-->
+    <!--발톱 끌어오기-->
 
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_A</defName>
@@ -683,7 +730,7 @@
     <apparelRequired>
     </apparelRequired>
     <weaponTags>
-	   <li>MRW_WH_T3A</li>
+	   <li>MRW_WH_T3R</li>
     </weaponTags>
     <weaponMoney>
       <min>1915</min>
@@ -700,7 +747,7 @@
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
   </PawnKindDef>
   
-   <!--발톱 결정화-->
+   <!--발톱 연사도끼-->
 
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_C</defName>
@@ -729,9 +776,10 @@
       <max>3500</max>
     </apparelMoney>
     <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
     </apparelRequired>
     <weaponTags>
-	   <li>MRW_C_T3C</li>
+	   <li>MRW_HA_T3T</li>
     </weaponTags>
     <weaponMoney>
       <min>1585</min>
