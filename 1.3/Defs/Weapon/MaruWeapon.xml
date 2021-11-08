@@ -122,7 +122,7 @@
       <li>MRW_C_T2C</li>
     </weaponTags>
     <label>Cleaver : Reinforcement</label>
-    <description>고기를 썰기위한 두꺼운 날을 가진 칼입니다.\n부속장치를 추가하고 날을 덧댔습니다.</description>
+    <description>고기를 썰기위한 두꺼운 날을 가진 칼입니다.\환부를 경화시켜 외부 충격에 더욱 취약하도록 만듭니다.</description>
     <graphicData>
       <texPath>Things/Weapons/MR_C_AO</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -156,6 +156,12 @@
         </capacities>
         <power>16</power>
         <cooldownTime>2</cooldownTime>
+		<extraMeleeDamages>
+          <li>
+            <def>MR_Crystallization</def>
+            <amount>2</amount>
+          </li>
+        </extraMeleeDamages>
       </li>
     </tools>
     <equippedStatOffsets>
@@ -188,7 +194,7 @@
     <techLevel>Medieval</techLevel>
         <costList>
       <MR_C_AO>1</MR_C_AO>
-      <Plasteel>20</Plasteel>
+      <Plasteel>18</Plasteel>
       <MR_Sarira>4</MR_Sarira>
         <ComponentSpacer>2</ComponentSpacer>
         </costList>
@@ -296,7 +302,7 @@
     <weaponTags>
 	  <li>MRW_C_T2S</li>
     </weaponTags>
-    <description>고기를 썰기위한 두꺼운 날을 가진 칼입니다.\n날 부분에 전기톱을 달아 절삭력을 증가시켰습니다.</description>
+    <description>고기를 썰기위한 두꺼운 날을 가진 칼입니다.\n날을 교체하고 엔진을 달아 절삭력을 증가시켰습니다.</description>
     <meleeHitSound>maruSE_Chainsaw</meleeHitSound>
     <graphicData>
       <texPath>Things/Weapons/MR_C_BO</texPath>
@@ -329,9 +335,15 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>27</power>
-        <cooldownTime>3</cooldownTime>
+        <power>15</power>
+        <cooldownTime>5</cooldownTime>
       <armorPenetration>0.3</armorPenetration>
+	   <extraMeleeDamages>
+          <li>
+            <def>MR_Shredded</def>
+            <amount>6</amount>
+          </li>
+        </extraMeleeDamages>
       </li>
     </tools>
           <equippedStatOffsets>
@@ -387,13 +399,13 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>24</power>
+        <power>15</power>
         <cooldownTime>3</cooldownTime>
       <armorPenetration>0.5</armorPenetration>
          <extraMeleeDamages>
           <li>
             <def>MR_Shredded</def>
-            <amount>10</amount>
+            <amount>15</amount>
           </li>
         </extraMeleeDamages>
       </li>
