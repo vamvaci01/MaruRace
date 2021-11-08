@@ -79,7 +79,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Outsider</defName>
     <label>Maru Outsider</label>
-    <combatPower>40</combatPower>
+    <combatPower>80</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -129,7 +129,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Cooker</defName>
     <label>Maru Cooker</label>
-    <combatPower>40</combatPower>
+    <combatPower>80</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -176,7 +176,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Caravan</defName>
     <label>Maru Caravan</label>
-    <combatPower>40</combatPower>
+    <combatPower>80</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -224,7 +224,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Engineer</defName>
     <label>Maru Engineer</label>
-    <combatPower>35</combatPower>
+    <combatPower>70</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -272,7 +272,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Work</defName>
     <label>Maru Technician</label>
-    <combatPower>35</combatPower>
+    <combatPower>70</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -321,7 +321,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Doctor</defName>
     <label>Maru Doctor</label>
-    <combatPower>35</combatPower>
+    <combatPower>70</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -373,7 +373,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_CHunter</defName>
     <label>Maru Contract Hunter</label>
-    <combatPower>45</combatPower>
+    <combatPower>90</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -420,7 +420,7 @@
 	<PawnKindDef ParentName="marunpcBasePawnKind">
 		<defName>MRP_Hunter</defName>
 		<label>Maru Hunter</label>
-		<combatPower>45</combatPower>
+		<combatPower>90</combatPower>
 		<isFighter>true</isFighter>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -467,7 +467,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Deciphers</defName>
     <label>Maru Decipher</label>
-    <combatPower>45</combatPower>
+    <combatPower>90</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -564,7 +564,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_M</defName>
     <label>Maru fangs</label>
-    <combatPower>50</combatPower>
+    <combatPower>100</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -612,7 +612,7 @@
     <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_RWH</defName>
     <label>Maru fangs</label>
-    <combatPower>50</combatPower>
+    <combatPower>100</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -658,7 +658,7 @@
     <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_R</defName>
     <label>Maru fangs</label>
-    <combatPower>50</combatPower>
+    <combatPower>100</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -704,7 +704,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_A</defName>
     <label>Maru Claws</label>
-    <combatPower>55</combatPower>
+    <combatPower>110</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -752,7 +752,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_C</defName>
     <label>Maru Claws</label>
-    <combatPower>55</combatPower>
+    <combatPower>105</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
