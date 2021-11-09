@@ -140,8 +140,6 @@
 			<commonality>80</commonality>
 			<maxTotalPoints>2500</maxTotalPoints>
 			<disallowedStrategies>
-				<li>ImmediateAttackSappers</li>
-				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
 				<MRP_Engineer>15</MRP_Engineer>
@@ -160,8 +158,6 @@
 			<commonality>40</commonality>
 			<maxTotalPoints>4000</maxTotalPoints>
 			<disallowedStrategies>
-				<li>ImmediateAttackSappers</li>
-				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
                 <MRP_Hunter>10</MRP_Hunter>
@@ -176,8 +172,6 @@
 			<commonality>10</commonality>
 			<maxTotalPoints>5000</maxTotalPoints>
 			<disallowedStrategies>
-				<li>ImmediateAttackSappers</li>
-				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>7</MRP_fangs_M>
@@ -191,8 +185,6 @@
 			<commonality>3</commonality>
 			<maxTotalPoints>8500</maxTotalPoints>
 			<disallowedStrategies>
-				<li>ImmediateAttackSappers</li>
-				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>7</MRP_fangs_M>
@@ -207,8 +199,6 @@
 			<kindDef>Combat</kindDef>
 			<commonality>1</commonality>
 			<disallowedStrategies>
-				<li>ImmediateAttackSappers</li>
-				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>10</MRP_fangs_M>
@@ -224,8 +214,6 @@
 			<kindDef>Combat</kindDef>
 			<commonality>1</commonality>
 			<disallowedStrategies>
-				<li>ImmediateAttackSappers</li>
-				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
 				<MRP_fangs_M>10</MRP_fangs_M>
