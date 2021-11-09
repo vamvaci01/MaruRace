@@ -373,7 +373,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_CHunter</defName>
     <label>Maru Contract Hunter</label>
-    <combatPower>90</combatPower>
+    <combatPower>100</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -420,7 +420,7 @@
 	<PawnKindDef ParentName="marunpcBasePawnKind">
 		<defName>MRP_Hunter</defName>
 		<label>Maru Hunter</label>
-		<combatPower>90</combatPower>
+		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -514,7 +514,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_MountainRanger</defName>
     <label>Maru MountainRanger</label>
-    <combatPower>120</combatPower>
+    <combatPower>220</combatPower>
 	<factionLeader>true</factionLeader>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>false</forceNormalGearQuality>
@@ -537,6 +537,7 @@
       <max>3500</max>
     </apparelMoney>
     <apparelRequired>
+	    <li>MR_RangedCombatSuit</li>
     </apparelRequired>
     <weaponTags>
 	   <li>MRW_CPB_T3P</li>
@@ -564,7 +565,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_M</defName>
     <label>Maru fangs</label>
-    <combatPower>100</combatPower>
+    <combatPower>140</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -612,7 +613,7 @@
     <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_RWH</defName>
     <label>Maru fangs</label>
-    <combatPower>100</combatPower>
+    <combatPower>140</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -658,7 +659,7 @@
     <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_fangs_R</defName>
     <label>Maru fangs</label>
-    <combatPower>100</combatPower>
+    <combatPower>140</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -704,7 +705,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_A</defName>
     <label>Maru Claws</label>
-    <combatPower>110</combatPower>
+    <combatPower>160</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -720,7 +721,6 @@
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <li>MR_Hunter</li>
       <li>MR_MountainRanger</li>
     </apparelTags>
     <apparelMoney>
@@ -728,6 +728,7 @@
       <max>3500</max>
     </apparelMoney>
     <apparelRequired>
+	    <li>MR_MeleeCombatSuit</li>
     </apparelRequired>
     <weaponTags>
 	   <li>MRW_WH_T3R</li>
@@ -752,7 +753,7 @@
   <PawnKindDef ParentName="marunpcBasePawnKind">
     <defName>MRP_Claws_C</defName>
     <label>Maru Claws</label>
-    <combatPower>105</combatPower>
+    <combatPower>155</combatPower>
     <isFighter>true</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -768,7 +769,6 @@
       </li>
     </backstoryFiltersOverride>
     <apparelTags>
-      <li>MR_Hunter</li>
       <li>MR_MountainRanger</li>
     </apparelTags>
     <apparelMoney>
@@ -776,7 +776,7 @@
       <max>3500</max>
     </apparelMoney>
     <apparelRequired>
-      <li>Apparel_ShieldBelt</li>
+      <li>MR_RangedCombatSuit</li>
     </apparelRequired>
     <weaponTags>
 	   <li>MRW_HA_T3T</li>
